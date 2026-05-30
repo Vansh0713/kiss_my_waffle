@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "CaliforniaVibes";
+  src: url("../assets/fonts/CaliforniaVibes-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary: #5a2d0c;
+  --secondary: #d98b2b;
+  --cream: #fff8ef;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.logo-font {
+  font-family: "CaliforniaVibes", cursive;
+}

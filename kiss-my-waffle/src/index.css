@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "CaliforniaVibes";
+  src: url("./assets/fonts/CaliforniaVibes-Regular.ttf")
+    format("truetype");
+}
+
+.logo-font {
+  font-family: "CaliforniaVibes", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background: #fff8ef;
+}
+@font-face {
+  font-family: "CaliforniaVibes";
+  src: url("./assets/fonts/CaliforniaVibes-Regular.ttf")
+    format("truetype");
+}
+
+.logo-font {
+  font-family: "CaliforniaVibes", cursive;
+}
+
+body {
+  background: #fff8ef;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "CaliforniaVibes";
+  src: url("./assets/fonts/CaliforniaVibes-Regular.ttf")
+    format("truetype");
+}
+
+.logo-font {
+  font-family: "CaliforniaVibes", cursive;
+}
